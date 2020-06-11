@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="origin">
+  <title>Jen Seng</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<section id="title">
+  <div class="container-fluid">
+
+      <!-- Nav Bar fixed-top  -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img class="logo-image" src="images/logo_circle.png" alt="Jen Seng"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <!--<span class="sr-only">(current)</span>--></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fab fa-pagelines"></i> Products 产品</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="products.html#New">New 新产品</a>
+                  <a class="dropdown-item" href="products.html#Premium">Premium Herbs & Seafood 高质量药材及海产</a>
+                  <!--<a class="dropdown-item" href="#">Bird's Nest </a>-->
+                  <!--<a class="dropdown-item" href="#">Menstrual Care Series 月经护理</a>-->
+                  <a class="dropdown-item" href="products.html#Postpartum">Postpartum Care Series 产后护理</a>
+                  <a class="dropdown-item" href="products.html#Tonic">Tonic Soup 补汤</a>
+                  <a class="dropdown-item" href="products.html#Herbal">Herbal Tea 凉茶</a>
+                  <a class="dropdown-item" href="products.html#Exclusive">Exclusive 代理产品</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product2.html"><i class="fas fa-stethoscope"></i> Consultation 诊病</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html"><i class="fas fa-map-marker"></i> Contact Us 联络我们</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>-->
+          </ul>
+        </div>
+      </nav>
+
+      </div>
+</section>
+
+<body>
+  <section id="contact">
+    <div class="container-fluid">
+      <!-- Title -->
+      <h4 class="big-heading">Contact Us 联络我们</h4>
+
+      <p>We are located near NEX, and besides Serangoon Central Braddell Heights Community Hub. </p>
+      <p>Opens daily except Chinese New Year or special occassions. </p>
+
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr valign="top">
+          <td width="60%">
+            <section id="enquiryContainer">
+              <!-- <h5 class="section-heading">Enquiry 询问</h5> -->
+              <form action="https://formspree.io/jensengserangoon@outlook.com" method="POST" onsubmit="alert('Thank you for your enquiry. We will get back to you soon.')">
+                <label for="name">Name 姓名</label>
+                <input type="text" name="name" placeholder="Name" required>
+                <label for="contact">Contact No 联络号码</label>
+                <input name="contact" placeholder="Contact No" required>
+                <label for="email">Email 电邮</label>
+                <input type="email" name="email" placeholder="Email" required>
+                <label for="enquiry">Enquiry 询问</label>
+                <textarea name="comments" placeholder="Enquiry" rows="10" required></textarea>
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="col-sm-12 text-center">
+                <button class="btn btn-md btn-light" id="btnSubmit">Submit</button>
+                <button class="btn btn-md btn-light" id="btnReset" onclick="reset()">Reset</button>
+                </div>
+              </form>
+            </section>
+          </td>
+          <td>
+            <section id="mapContainer">
+              <!-- <h5 class="section-heading">Map</h5> -->
+              <div id="map"></div>
+            </section>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  </section>
+
+  <script src="scripts/geo.js"></script>
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWwocbzhUJN0R6gNbXXgizGf6sR2U9lhY&callback=initMap">&callback=initMap">
+  </script>
+
+</body>
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="container-fluid">
+    <p>© Copyright Jen Seng since 2001.
+      Follow us on <a href="http://facebook.com/JenSeng" target="_blank" rel="external"> <i class="icon fab fa-facebook-f"></i>
+      </a>
+    </p>
+    <p><a href="https://maps.google.com/?q=BLK+264+SERANGOON+CENTRAL+SINGAPORE+550264">
+        <i class="icon far fa-map"></i>
+        BLK 264 SERANGOON CENTRAL BRADDELL HEIGHTS COMMUNITY HUB #01-231 SINGAPORE 550264
+      </a>
+    </p>
+    <p><a href="tel:+6562846703">
+        <i class="icon fas fa-phone"></i>
+        +65 6284 6703
+      </a></p>
+    <p>
+      <a href=”mailto:jensengserangoon@outlook.com” target="_blank">
+        <i class="icon far fa-envelope"></i>
+        jensengserangoon@outlook.com
+      </a></p>
+  </div>
+</footer>
+
+</html>
