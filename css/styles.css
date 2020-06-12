@@ -65,7 +65,7 @@ p {
 .container {
   position: relative;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 /* Centered text */
@@ -78,13 +78,6 @@ p {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-}
-
-.main-image {
-  max-width: 70%;
-  /*width: 50vw;
-  height: auto;*/
-  border-radius: 20px;
 }
 
 /* Features Section */
@@ -205,6 +198,12 @@ footer a:hover {
 
 @media only screen and (device-width: 1280px), only screen and (max-width: 1028px) {
 
+  /* .main-image {
+    max-width: 70% !important;
+    width: 100% !important;
+    border-radius: 20px;
+  } */
+
   #title {
     text-align: center;
   }
@@ -213,4 +212,5 @@ footer a:hover {
     position: static;
     transform: rotate(0);
   }
+
 }
