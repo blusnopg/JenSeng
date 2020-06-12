@@ -81,10 +81,9 @@ p {
 }
 
 .main-image {
-  width: initial !important;
-  max-width: 100% !important;
-  /*width: 50vw;*/
-  height: auto;
+  max-width: 70%;
+  /*width: 50vw;
+  height: auto;*/
   border-radius: 20px;
 }
 
