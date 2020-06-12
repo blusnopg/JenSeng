@@ -1,1 +1,2 @@
 # JenSeng
+permalink: /index.html
