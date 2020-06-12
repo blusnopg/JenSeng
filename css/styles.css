@@ -63,21 +63,34 @@ p {
 
 /* Container holding the image and the text */
 .container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding-bottom: 10px;
   position: relative;
-  text-align: center;
-  padding-bottom: 15px;
+  /* border: 3px solid #73AD21; */
 }
 
-/* Centered text */
-.main-centered {
-  background: rgba(255, 252, 239, 0.8);
-  color: #5b423e;
-  padding: 1em;
+.main-image {
+  border-radius: 10px;
+  width: 100%;
+  /* Add the blur effect */
+  /* filter: blur(7px);
+  -webkit-filter: blur(7px);
+  border: 3px solid #73AD21;*/
+}
+
+.main-content {
+  background: rgb(255, 252, 239); /* Fallback color */
+  background: rgba(255, 252, 239, 0.5); /* background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+  /* border: 3px solid #73AD21; */
 }
 
 /* Features Section */
